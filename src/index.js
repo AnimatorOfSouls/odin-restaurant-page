@@ -53,8 +53,15 @@ function makeFooter() {
   footer.classList.add("footer");
 
   const text = document.createElement("p");
-  text.innerText = "Made with ♥ by AnimatorOfSouls"
+  text.innerText = "Made with ♥ by "
+  const link = document.createElement("a");
+  link.href = "https://github.com/AnimatorOfSouls/odin-restaurant-page";
+  link.innerText = "AnimatorOfSouls";
+  text.appendChild(link);
+  
   footer.appendChild(text);
+
+  
 
   container.appendChild(footer);
 }

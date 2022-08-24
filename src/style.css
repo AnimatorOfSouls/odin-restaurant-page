@@ -181,3 +181,7 @@
   position: absolute;
   top: calc(100vh - var(--header-height));
 }
+
+.footer a {
+  color: rgb(255, 247, 226);
+}
